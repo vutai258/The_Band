@@ -1,0 +1,178 @@
+/* Reset CSS */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*  1. Làm từ ngoài vào trong
+    2. Làm từ trên xuống dưới
+    3. Làm từ tổng quan đến chi tiết. 
+*/
+/*  1. Vị trí
+    2. Kích thước
+    3. Màu sắc
+    4. Kiểu dáng(Kiểu chữ, hình dạng)
+ */
+#main {}
+
+#header {
+    height: 46.5px;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+#nav {
+    display: inline-block;
+}
+
+#nav>li {
+    display: inline-block;
+}
+
+#nav li {
+    position: relative;
+
+}
+
+#nav>li>a {
+    color: white;
+    text-transform: uppercase;
+}
+
+#nav li a {
+    text-decoration: none;
+    padding: 0 24px;
+    line-height: 46.5px;
+    display: inline-block;
+
+}
+
+#nav>li:hover>a,
+#nav .subnav a:hover {
+    color: black;
+    background-color: #ccc;
+    display: block;
+
+
+}
+
+#nav li:hover .subnav {
+    display: block;
+}
+
+
+#nav .subnav {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    list-style-type: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    min-width: 160px;
+
+}
+
+#nav .subnav a {
+    color: black;
+
+}
+
+#nav .icon-down {
+    font-size: 14px;
+}
+
+#header .search {
+    float: right;
+    width: 61.94px;
+    text-align: center;
+}
+
+.search .search-icon {
+    line-height: 46.5px;
+    color: white;
+
+}
+
+#header .search:hover {
+    background-color: #f44336;
+    cursor: pointer;
+}
+
+#slider {
+    margin-top: 46.5px;
+    padding-top: 50%;
+    background: url('1.jpg') top center / cover no-repeat;
+    position: relative;
+}
+
+#slider .text-content {
+    position: absolute;
+    color: #fff;
+    bottom: 47px;
+    width: 100%;
+    text-align: center;
+}
+
+#slider .text-newyork {
+    font-size: 24px;
+}
+
+#slider .text-feel {
+    font-size: 15px;
+    margin-top: 25px;
+}
+
+#content {}
+
+#content .About {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto; 
+    
+}
+
+.theband {
+    text-align: center;
+    margin-top: 74px;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.slogan {
+    text-align: center;
+    margin-top: 25px;
+    font-style: italic;
+    font-size: 15px;
+}
+
+.text {
+    margin-top: 15px;
+    margin-bottom: 62px;
+    text-align: justify;
+}
+
+#content .member {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    font-size: 15px;
+}
+
+.member .img {
+    width: 60%;
+    border-radius: 4px;
+    margin-top: 15px;
+    margin-bottom: 16px;
+}
+
+#footer {}
