@@ -139,7 +139,7 @@ html {
     height: 671px;
     margin: 0 auto;   
     padding: 64px 16px;
-    
+  
     
 }
 
@@ -176,4 +176,19 @@ html {
     border-radius: 4px;
     margin-top: 15px;
     margin-bottom: 16px;
+}
+.Ticket{
+    margin: 0 auto;
+    padding: 64px 16px;
+    background-color: black;
+    
+}
+.Ticket .theband{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+.Ticket .slogan{
+    text-align: center;
+    color: white;
 }
