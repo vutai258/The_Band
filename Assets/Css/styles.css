@@ -141,7 +141,7 @@ html {
     
 }
 
-.theband {
+.About .theband {
     text-align: center;
     margin-top: 74px;
     text-transform: uppercase;
@@ -174,5 +174,18 @@ html {
     margin-top: 15px;
     margin-bottom: 16px;
 }
-
+.Ticket{
+    height: 847px;
+    background-color: black;
+}
+.Ticket .theband{
+    color: rgb(248, 245, 245);
+    text-align: center;
+    margin-top: 74px;
+    font-size: 30px;
+}
+.Ticket .slogan{
+    color: #fff;
+    font-style: italic;
+}
 #footer {}
