@@ -237,22 +237,21 @@ html {
 }
 .location_tour{
     margin-top: 32px;
-    display: flex;
-    justify-content: space-between;
-    
+    margin-left: -8px;
+    margin-right: -8px;
+           
 }
 .location {
-    
+    float: left;
     width: 33.3333%;
-    
-    
-    
+    padding: 0px 8px;
+        
 }
 
 .location_img{
     width: 100%;
 }
 .location_img .text{
-    margin-left: 16px;
+   
     
 }
