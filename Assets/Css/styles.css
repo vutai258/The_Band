@@ -206,10 +206,10 @@ html {
 .ticket_month {
     background-color: #fff;
     list-style: none;
-    
+
 }
 
-.ticket_month >li {
+.ticket_month>li {
     margin-left: 16px;
     height: 45px;
     padding: 8px 16px;
@@ -222,10 +222,9 @@ html {
     color: #fff;
     background-color: #f44336;
     margin-left: 20px;
-  
 
 }
 
-.November{
+.November {
     float: right;
 }
