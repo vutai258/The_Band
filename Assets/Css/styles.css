@@ -211,6 +211,9 @@ html {
 
 .ticket_month >li {
     margin-left: 16px;
+    height: 45px;
+    padding: 8px 16px;
+    border-bottom: 1px solid rgb(156, 154, 154);
 }
 
 
@@ -218,6 +221,11 @@ html {
 .Octorber {
     color: #fff;
     background-color: #f44336;
+    margin-left: 20px;
   
 
+}
+
+.November{
+    float: right;
 }
