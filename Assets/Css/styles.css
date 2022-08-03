@@ -137,10 +137,10 @@ html {
 #content .About {
     width: 800px;
     height: 671px;
-    margin: 0 auto;   
+    margin: 0 auto;
     padding: 64px 16px;
-  
-    
+
+
 }
 
 .About .theband {
@@ -177,18 +177,47 @@ html {
     margin-top: 15px;
     margin-bottom: 16px;
 }
-.Ticket{
+
+.tour_ticket {
+    background-color: black;
+}
+
+.Tour_date {
     margin: 0 auto;
     padding: 64px 16px;
-    background-color: black;
-    
+    width: 766px;
+
+
+
 }
-.Ticket .theband{
+
+.Tour_date .theband {
     text-align: center;
     color: white;
     text-transform: uppercase;
 }
-.Ticket .slogan{
+
+.Tour_date .slogan {
     text-align: center;
     color: white;
+}
+
+
+.ticket_month {
+    background-color: #fff;
+    list-style: none;
+    
+}
+
+.ticket_month >li {
+    margin-left: 16px;
+}
+
+
+.ticket_month .September,
+.Octorber {
+    color: #fff;
+    background-color: #f44336;
+  
+
 }
