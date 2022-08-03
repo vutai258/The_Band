@@ -236,15 +236,15 @@ html {
     margin-top: 4px;
 }
 .location_tour{
+    margin-top: 32px;
     display: flex;
     justify-content: space-between;
-    padding: 32px 8px;
-    
     
 }
-.location1, .location2, .location3 {
-    width: 245px;
-    height: 184px;
+.location {
+    
+    width: 33.3333%;
+    
     
     
 }
