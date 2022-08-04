@@ -7,6 +7,7 @@
 
 html {
     font-family: 'Times New Roman', Times, serif;
+    scroll-behavior: smooth;
 }
 
 /*  1. Làm từ ngoài vào trong
