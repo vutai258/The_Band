@@ -294,6 +294,7 @@ html {
 .Contact{
     margin: 0 auto;  
     padding: 64px 16px;
+    width: 766px
 }
 
 .Contact .title{
@@ -307,15 +308,42 @@ html {
     font-size: 15px;
     font-family: sans-serif;
     margin: 15px 0;
+    color: rgb(148, 145, 145);
 }
 .form{
     padding: 32px 0px;
     display: flex;
-    justify-content: center;
-    
-    
-    
+    justify-content: space-between;
+      
 }
-.message{
+.send{
+    float:right;
+}
+.form .text{
+      font: 18px sans-serif ;
+      line-height: 28px;
+            
+}
+.input{
+    line-height: 50px;
+}
+.input_name, .input_email, .input_message{
+       height: 40.5px;
+}
+.input_name{
+    padding: 8px;
+}
+.input_email{
+    padding: 8px;
+}
+.input_message{
     width: 100%;
+    padding: 8px;
+}
+.send{
+    margin: 16px 0;
+    background-color: black;
+    padding: 8px 16px;
+    color: #fff;
+    font-size: 15px;
 }
