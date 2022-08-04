@@ -255,17 +255,20 @@ html {
 .text{
     background-color: #fff;
     margin-top: -5px;
-    padding-top: 15px;
+    padding: 15px 0px;
     
 }
 .place, .date, .buy_ticket, .description {
     margin: 15px 15px;
     
     
+    
 }
 .buy_ticket{
-    padding-bottom: 15px;
-    
+    background-color: black;
+    color: #fff;
+    padding: 8px 16px;
+    font: 15px sans-serif;
     
 }
 .clear{
