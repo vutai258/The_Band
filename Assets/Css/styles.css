@@ -245,13 +245,29 @@ html {
     float: left;
     width: 33.3333%;
     padding: 0px 8px;
+    
         
 }
 
 .location_img{
     width: 100%;
 }
-.location_img .text{
-   
+.text{
+    background-color: #fff;
+    margin-top: -5px;
+    padding-top: 15px;
     
+}
+.place, .date, .buy_ticket, .description {
+    margin: 15px 15px;
+    
+    
+}
+.buy_ticket{
+    padding-bottom: 15px;
+    
+    
+}
+.clear{
+    clear: both;
 }
