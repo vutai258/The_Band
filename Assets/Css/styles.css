@@ -260,16 +260,26 @@ html {
 }
 .place, .date, .buy_ticket, .description {
     margin: 15px 15px;
-    
-    
+    font-family:  sans-serif;
+   
     
 }
 .buy_ticket{
     background-color: black;
     color: #fff;
     padding: 8px 16px;
-    font: 15px sans-serif;
+    font-size: 15px ;
     
+}
+.description{
+    font-size: 15px;
+}
+.date{
+    font-size: 15px;
+    color: rgb(122, 122, 122)
+}
+.place{
+    font-size: 15px;
 }
 .clear{
     clear: both;
